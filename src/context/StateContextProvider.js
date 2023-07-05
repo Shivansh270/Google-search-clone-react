@@ -7,7 +7,7 @@ const baseUrl = 'https://google-search72.p.rapidapi.com';
 export const StateContextProvider = ({children}) => {
     const [results, setResults] = useState([]);
     const [loading, setLoading] = useState(false);
-    const [searchTerm, setSearchTerm] = useState('')
+    const [searchTerm, setSearchTerm] = useState('elson musk')
 
     const getResults = async (type) => {
         setLoading(true);
@@ -16,13 +16,15 @@ export const StateContextProvider = ({children}) => {
         const res = await fetch(`${baseUrl}${type}`,{
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'e40ea65b67msh5af1f0eff8d9c30p11475ajsn4d172f751a5d',
-            'X-RapidAPI-Host': 'google-search72.p.rapidapi.com'
-          }
+          'X-RapidAPI-Key': '48cddf3795mshd254632d05a7064p1c2cd2jsn158a0b9d4775',
+          'X-RapidAPI-Host': 'google-search72.p.rapidapi.com'
+        }
+      
+      
       })
         const data = await res.json();
 
-        console.log(data.items)
+        console.log(data)
         setResults(data.items);
         setLoading(false)
       }
