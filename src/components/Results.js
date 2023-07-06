@@ -9,10 +9,6 @@ const Results = () => {
     const { results, loading, getResults, searchTerm } = useContext(StateContext);
     const location = useLocation();
 
-    // useEffect(() => {
-    //     getResults('?q=JavaScript Mastery&num=10')
-    // }, [])
-
     useEffect(() => {
         if (searchTerm !== '') {
           if (location.pathname === '/videos') {
@@ -30,18 +26,19 @@ const Results = () => {
         case '/search':
           return (
             <div className="sm:px-56 flex flex-wrap justify-between space-y-6">
-              {results?.map((item, index) => (
-                <div key={index} className="md:w-2/5 w-full">
-                  <a href={item.link} target="_blank">
-                    <p className="text-sm">
-                        {item.link.length > 30 ? item.link.substring(0, 30) : item.link}</p>
-                    <p className="text-lg hover:underline dark:text-blue-300 text-blue-700">
-                        {item.title}
-                    </p>
-                  </a>
-                </div>
-              ))}
-            </div>
+            {results && results.map((item, index) => (
+              <div key={index} className="md:w-2/5 w-full">
+                <a href={item.link} target="_blank" rel="noopener noreferrer">
+                  <p className="text-sm">
+                    {item.link && item.link.length > 30 ? item.link.substring(0, 30) : item.link}
+                  </p>
+                  <p className="text-lg hover:underline dark:text-blue-300 text-blue-700">
+                    {item.title}
+                  </p>
+                </a>
+              </div>
+            ))}
+          </div>
           );
 
         case '/imagesearch':
@@ -62,21 +59,7 @@ const Results = () => {
                 </div>
             )
         
-    case '/news':
-          return (
-            <div className="sm:px-56 flex flex-wrap justify-between space-y-6 items-center">
-              {results?.map((result, index) => (
-                <div key={index} className="md:w-2/5 w-full">
-                  <a href={result.link} target="_blank">
-                    
-                    <p className="text-lg hover:underline dark:text-blue-300 text-blue-700">
-                      {result.title}
-                    </p>
-                  </a>
-                </div>
-              ))}
-            </div>
-          );
+  
 }
 }
 
