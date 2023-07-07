@@ -16,7 +16,7 @@ export const StateContextProvider = ({children}) => {
         const res = await fetch(`${baseUrl}${type}`,{
         method: 'GET',
         headers: {
-          'X-RapidAPI-Key': 'f906a129f2msh693cee2e8a70a27p1262b6jsn71b6278ac90a',
+          'X-RapidAPI-Key': '5cfc1fab96msh1c9e1a375be56d2p18d937jsn80515e3945a5',
           'X-RapidAPI-Host': 'google-search72.p.rapidapi.com'
         }
       
