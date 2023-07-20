@@ -1,5 +1,5 @@
-https://socialify.git.ci/Shivansh270/Google-search-clone-react/image?font=Inter&language=1&name=1&owner=1&theme=Light
-## Google Clone
+#![Google-search-clone-react](https://github.com/Shivansh270/Google-search-clone-react/assets/88260212/df427628-8bbf-4697-8949-a6c983a24a9c)
+# Google Clone
 
 
 ## Table of Contents
