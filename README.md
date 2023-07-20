@@ -1,70 +1,72 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Google Clone
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* [Demo](#Demo)
+* [Introduction](#Introduction)
+* [Technologies Used](#Technologies-Used)
+* [Features](#Features)
+* [Installation](#Installation)
+* [Usage](#Usage)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://github.com/Shivansh270/Google-search-clone-react/assets/88260212/ae5b3768-9f6a-48c4-96e8-33f9fc43b14d
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Introduction
 
-### `npm run eject`
+The Google Clone project is a React web application that replicates the Google search engine user interface. It utilizes the Context API for state management, ensuring an efficient and maintainable application structure. The project aims to provide users with accurate search results and images, enhancing the user experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
+The Google Clone project is built using the following technologies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React: JavaScript library for building user interfaces.
+- Context API: State management for React applications.
+- HTML: Markup language for creating the structure of the web application.
+- Tailwind CSS: Used Tailwind CSS for designing the user interface.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Features
+- Accurate Google-like search results.
+- Display of relevant images based on search queries.
+- Dark mode functionality for comfortable viewing in low-light - environments.
+- Context API for state management, ensuring scalability and - - - maintainability.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Follow the steps below to set up the Google Clone project locally:
 
-### Analyzing the Bundle Size
+1. Clone the repository to your local machine using the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+git clone https://github.com/Shivansh270/Google-search-clone-react.git
+```
+2. Navigate to the project directory:
+```bash
+cd google-clone
+````
+3. Install the required dependencies using npm or yarn:
+```bash
+npm install
+````
 
-### Making a Progressive Web App
+## Usage
+To run the Google Clone project locally, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Ensure you have completed the installation steps mentioned above.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. Start the development server using npm or yarn:
+```bash
+npm run start
+```
+3. Open your web browser and navigate to http://localhost:3000 to access the Google Clone application.
