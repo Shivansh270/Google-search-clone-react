@@ -6,6 +6,7 @@
 
 
 * [Demo](#Demo)
+* [Deployment](#Deployment)
 * [Introduction](#Introduction)
 * [Technologies Used](#Technologies-Used)
 * [Features](#Features)
@@ -18,6 +19,9 @@
 
 
 https://github.com/Shivansh270/Google-search-clone-react/assets/88260212/ae5b3768-9f6a-48c4-96e8-33f9fc43b14d
+
+## Deployment
+Link https://clone-google2.netlify.app/
 
 
 ## Introduction
